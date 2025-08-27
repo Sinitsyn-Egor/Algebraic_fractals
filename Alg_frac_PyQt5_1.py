@@ -117,7 +117,7 @@ class MainWindow(Pwgt.QMainWindow):
         layout = Pwgt.QVBoxLayout(central_widget)
 
         up_panel = Pwgt.QHBoxLayout()
-        button_save = Pwgt.QPushButton("Save")
+        button_save = Pwgt.QPushButton("o") # dont work for now
         button_save.clicked.connect(self.button_save)
         up_panel.addWidget(button_save)
         text = Pwgt.QLabel("F(Z, Z0) = ")
